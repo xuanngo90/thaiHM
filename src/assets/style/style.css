@@ -1,0 +1,56 @@
+/* @import "~@angular/material/prebuilt-themes/indigo-pink.css"; */
+
+.headerMenu {
+    background-color: #FEF7DA;
+}
+
+.headerMenu .nav:nth-child(1) {
+    padding-left: 30px;
+}
+.headerMenu >ul >li >a {
+    padding: 29px 30px;
+    line-height: 1.2;
+    /* font-weight: bold; */
+    font-size: 16px;
+    color: #a6a6a6;
+}
+
+.headerMenu >ul >li.active >a {
+    color: #47A7C4;
+}
+
+header >.container-fluid {
+    padding: 0;
+}
+
+.userInfo img {
+    width: 32px;
+    height: 32px;
+    display: block;
+    float: left;
+    margin-top: -6px;
+    margin-right: 10px;
+    border-radius: 50%;
+    background-color: gray;
+}
+
+.userName {
+    margin-right: 10px;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.headerMenu .nav>li>a:focus,
+.headerMenu .nav>li>a:hover {
+    text-decoration: none;
+    background-color: #FFEBAE;
+}
+
+.headerMenu .nav .open>a, 
+.headerMenu .nav .open>a:focus, 
+.headerMenu .nav .open>a:hover {
+    background-color: #FFEBAE;
+    box-shadow: none;
+    text-shadow: transparent;
+}
+
